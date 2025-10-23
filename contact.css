@@ -1,0 +1,118 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+/* Contact Header */
+.contact-header {
+    padding: 2rem 2rem 1rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+
+.back-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    transition: opacity 0.2s ease;
+}
+
+.back-link:hover {
+    opacity: 0.7;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.15em;
+    text-transform: lowercase;
+    font-weight: 500;
+}
+
+/* Contact Main */
+.contact-main {
+    padding: 4rem 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Contact Info */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+}
+
+.contact-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+.contact-link:hover {
+    border-bottom: 1px solid #000000;
+    opacity: 0.7;
+}
+
+/* Book Box */
+.book-box {
+    border: 1px solid #000000;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.book-box:hover {
+    opacity: 0.7;
+}
+
+.book-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .contact-header h1 {
+        font-size: 2rem;
+    }
+    
+    .contact-main {
+        padding: 2rem 1rem;
+    }
+    
+    .contact-info {
+        gap: 2rem;
+    }
+}
