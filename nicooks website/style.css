@@ -74,6 +74,8 @@ body::after {
     margin: 0 0 0.3rem 0;
     text-transform: lowercase;
     letter-spacing: 0.05em;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
 }
 
 .content-title {
